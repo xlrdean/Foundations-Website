@@ -1,31 +1,29 @@
 /* main.css*/
 
-body {
+body { /*Global body formatting*/
     margin: 0;
     padding: 0;
     font-family:Verdana, Arial, sans-serif;
     color: #E5E7EB;
-    
 }
 
-p {
+p { /* Global paragraph formatting*/
     margin: 0;
-    
 }
 
-a {
+a { /* Global anchor formatting*/
     text-decoration: none; 
 }
 
-a:active, a:visited, a:link {
+a:active, a:visited, a:link {  /* Global links formatting*/
     color: #E5E7EB;
 }
 
-a:hover {
+a:hover {  /* Global link hover formatting*/
     color: #595959;
 }
 
-ul {
+ul {  /* Global unordered formatting*/
     margin: 0;
     padding: 0;
     list-style-type: none;
@@ -34,7 +32,7 @@ ul {
     flex-wrap: wrap;
 }
 
-button {
+button {  /* Global button formatting*/
     padding: 2px 16px;
     border-radius: 8px;
     background-color: #3882F6;
@@ -44,37 +42,36 @@ button {
 
 /* Header, Footer & Title Section */
 .header, 
-.footer {
+.footer { /* header adn footer shared formatting*/
     background-color:#1F2937;
     display:flex;
     padding: 30px 100px;
     align-items: center;
 }
 
-.header {
+.header {  /* header formatting*/
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 15px;
 }
 
-.title {
+.title { /* Logo or site title formatting*/
     font-weight: 900;
 }
 
-.nav {
+.nav { /* navigation bar links formatting*/
     font-size: 14px;
 }
 
-.footer {
+.footer { /* footer formatting (all)*/
     justify-content: center;
 }
 
-p.copyright {
+p.copyright { /* footer text formatting*/
     font-size: 10px;
 }
 
-
-/* First Section - Company and service description */
+/* First Section - First call to action with product description */
 .info { /* main container*/
     background-color:#1F2937;
     color: #F9FAF8;
@@ -85,7 +82,7 @@ p.copyright {
     flex-wrap: wrap;
 }
 
-.info2 { /*description*/
+.info2 { /*description container*/
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -93,49 +90,47 @@ p.copyright {
     max-width: 470px;
  }
 
-.service_title {
+.service_title { /*description title*/
     font-size: 28px;
     font-weight: bolder;
 }
 
-.first_image img {
+.first_image img { /*image to the right of description*/
     width: 400px;
     height: 200px;
 }
-
-
   
-button.sign_up_1 {
+button.sign_up_1 { /*Sign up button in description*/
     border: 1px solid #3882F6;
     align-self: flex-start;
   }
 
 /* Second Section */
-
-.second_title {
+.second_title {/*2nd section main title*/
     text-align: center;
     margin-bottom: 32px;
     font-weight: bold;
     color: black;
     font-size: 18px;
+    padding-top: 30px;
 }
 
-.services { 
+.services { /*services container*/
     display:flex;
     justify-content: center;
     gap: 52px;
     flex-wrap: wrap;
-    padding: 0 0;
+    padding: 20px 20px 80px;
 }
 
-.card {
+.card { /*images and text*/
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.card img {
+.card img { /*services images*/
     width: 150px;
     height: 150px;
     border: 2px solid #595959;
@@ -144,7 +139,7 @@ button.sign_up_1 {
     box-shadow: 3px 3px 20px #595959
 }
 
-.text {
+.text {/* image text formatting*/
     max-width: 200px;
     text-align: center;
     color:#1F2937;
@@ -152,7 +147,7 @@ button.sign_up_1 {
 }
 
 /* Third Section - Quote */
-.third {
+.third {/*3rd section container*/
     background-color: #E5E7EB;
     color: #76777a;
     display: flex;
@@ -160,19 +155,19 @@ button.sign_up_1 {
     padding: 80px 200px;
 }
 
-.quote {
+.quote {/*Quote text*/
     font-style:italic;
     font-size: 20px;
     /* width: 800px; */
 }
 
-.author {
+.author { /*Author of quote formatting*/
     font-weight:bold;
     align-self: flex-end;
 }
 
 /* Forth Section */
-.forth {
+.forth { /*4th section container*/
     border-radius: 5px;
     background-color: #3882F6;
     margin: 80px 100px;
@@ -180,7 +175,7 @@ button.sign_up_1 {
     min-width: 180px;
 }
 
-.call_action {
+.call_action { /*call to action content*/
     display: flex;
     justify-content: space-between;
     gap: 20px;
@@ -188,24 +183,24 @@ button.sign_up_1 {
     flex-wrap: wrap;
 }
 
-.action, .call {
+.action, .call { /*call to action text global formatting*/
     color: white;
 }
 
-.action {
+.action { /*text formatting*/
     flex-direction: column;
     font-size: 12px;
     min-width: 180px;
 }
 
-.call {
+.call { /*text formatting*/
     font-size: 8px;
 }
 
-.button2 {
+.button2 { /*sign up button container*/
     flex-shrink: 0;
 }
 
-button.sign_up_2 {
+button.sign_up_2 { /*sign up button Call to action formatting*/
     border: 1px solid white;  
 }
