@@ -1,1 +1,162 @@
 /* main.css*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Arial, sans-serif;
+    color: #E5E7EB;
+    
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none; 
+}
+
+a:active, a:visited{
+    color: #E5E7EB;
+}
+
+a:hover {
+    color: #595959;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Header, Footer & Title Section */
+.header, 
+.footer {
+    background-color:#1F2937;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px 100px;
+    align-items: center;
+    gap: 15px;
+}
+
+.title {
+    font-weight: 900;
+}
+
+.nav {
+    font-size: 14px;
+}
+
+/* First Section - Company and service description */
+.info { /* main container*/
+    background-color:#1F2937;
+    color: #F9FAF8;
+    display: flex;
+    gap: 30px;
+    padding: 30px 100px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.info2 { /*description*/
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 340px;
+    max-width: 470px;
+ }
+
+.service_title {
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.firstimage img {
+    width: 420px;
+    height: 200px;
+}
+
+button {
+    padding: 8px 16px;
+    border-radius: 8px;
+  }
+  
+button.sign_up_1 {
+    background-color: #3882F6;
+    border: 1px solid #3882F6;
+    color: white;
+    align-self: flex-start;
+  }
+
+/* .text1 {
+    min-width: 340px;
+    max-width: 470px;
+} */
+
+/* Second Section */
+
+.second_title {
+    text-align: center;
+    margin-bottom: 32px;
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+}
+
+.services { 
+    display:flex;
+    justify-content: center;
+    gap: 52px;
+    flex-wrap: wrap;
+    padding: 0 0;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+    max-width: 150px;
+}
+
+.text {
+    max-width: 200px;
+    text-align: center;
+}
+
+/* Third Section - Quote */
+.third {
+    background-color: #E5E7EB;
+    color: #76777a;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 200px;
+}
+
+.quote {
+    font-style:italic;
+    font-size: 20px;
+    /* width: 800px; */
+}
+
+.author {
+    font-weight:bold;
+    align-self: flex-end;
+}
+
+/* Forth Section */
+
+
