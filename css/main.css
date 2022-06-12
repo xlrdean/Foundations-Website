@@ -10,13 +10,14 @@ body {
 
 p {
     margin: 0;
+    
 }
 
 a {
     text-decoration: none; 
 }
 
-a:active, a:visited{
+a:active, a:visited, a:link {
     color: #E5E7EB;
 }
 
@@ -33,15 +34,26 @@ ul {
     flex-wrap: wrap;
 }
 
+button {
+    padding: 2px 16px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: white;
+    font-size: 12px;
+  }
+
 /* Header, Footer & Title Section */
 .header, 
 .footer {
     background-color:#1F2937;
     display:flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
     padding: 30px 100px;
     align-items: center;
+}
+
+.header {
+    justify-content: space-between;
+    flex-wrap: wrap;
     gap: 15px;
 }
 
@@ -52,6 +64,15 @@ ul {
 .nav {
     font-size: 14px;
 }
+
+.footer {
+    justify-content: center;
+}
+
+p.copyright {
+    font-size: 10px;
+}
+
 
 /* First Section - Company and service description */
 .info { /* main container*/
@@ -77,27 +98,17 @@ ul {
     font-weight: bolder;
 }
 
-.firstimage img {
+.first_image img {
     width: 420px;
     height: 200px;
 }
 
-button {
-    padding: 8px 16px;
-    border-radius: 8px;
-  }
+
   
 button.sign_up_1 {
-    background-color: #3882F6;
     border: 1px solid #3882F6;
-    color: white;
     align-self: flex-start;
   }
-
-/* .text1 {
-    min-width: 340px;
-    max-width: 470px;
-} */
 
 /* Second Section */
 
@@ -135,6 +146,8 @@ button.sign_up_1 {
 .text {
     max-width: 200px;
     text-align: center;
+    color:#1F2937;
+    font-size: 12px;
 }
 
 /* Third Section - Quote */
@@ -158,5 +171,40 @@ button.sign_up_1 {
 }
 
 /* Forth Section */
+.forth {
+    border-radius: 5px;
+    background-color: #3882F6;
+    margin: 80px 100px;
+    padding: 30px 80px;
+    min-width: 180px;
+}
 
+.call_action {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
+.action, .call {
+    color: white;
+}
+
+.action {
+    flex-direction: column;
+    font-size: 12px;
+    min-width: 180px;
+}
+
+.call {
+    font-size: 8px;
+}
+
+.button2 {
+    flex-shrink: 0;
+}
+
+button.sign_up_2 {
+    border: 1px solid white;  
+}
