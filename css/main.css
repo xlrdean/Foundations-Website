@@ -99,7 +99,7 @@ p.copyright {
 }
 
 .first_image img {
-    width: 420px;
+    width: 400px;
     height: 200px;
 }
 
@@ -138,9 +138,10 @@ button.sign_up_1 {
 .card img {
     width: 150px;
     height: 150px;
-    border: 2px solid #3882F6;
+    border: 2px solid #595959;
     border-radius: 10px;
     max-width: 150px;
+    box-shadow: 3px 3px 20px #595959
 }
 
 .text {
